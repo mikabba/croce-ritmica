@@ -42,13 +42,26 @@ The application combines music notation rendering, editable answer cells, scorin
 
 ## Screenshots
 
-Add screenshots in the `assets/` folder and reference them here.
 
-```html
+### Log in
 <p align="center">
-  <img src="assets/croce-ritmica-game.png" alt="Croce Ritmica game screen" width="500">
+  <img src="assets/login-leaderboard.png" alt="Login and leaderboard" width="500">
 </p>
-```
+
+### Start the game
+<p align="center">
+  <img src="assets/start-game.png" alt="Start the game" width="500">
+</p>
+
+### Positive feedback
+<p align="center">
+  <img src="assets/positive-feedback.png" alt="Positive feedback" width="500">
+</p>
+
+### Negative feedback
+<p align="center">
+  <img src="assets/negative-feedback.png" alt="Negative feedback" width="500">
+</p>
 
 ## Technical Overview
 
