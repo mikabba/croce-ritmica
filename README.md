@@ -299,3 +299,13 @@ This project complements my main engineering portfolio by demonstrating my abili
 - Improve mobile responsiveness
 - Add automated tests for rhythm-generation and answer-checking logic
 - Consider migrating runtime data to SQLite or MySQL for larger deployments
+
+## License and Usage
+
+This project is not released under an open-source license.
+
+The source code is made publicly visible for portfolio review, technical evaluation and demonstration purposes only.
+
+Copying, modifying, redistributing, hosting, selling, sublicensing or creating derivative works based on this project is not permitted without prior written permission from the author.
+
+Copyright (c) 2026 Michele Abbaticchio. All rights reserved.
