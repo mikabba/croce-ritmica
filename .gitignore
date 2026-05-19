@@ -1,0 +1,12 @@
+# Runtime data: do not commit real student names, scores or credentials.
+private/*.json
+
+# Local OS/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional local media if not intended for publication.
+# sounds/*.mp3
+# attestati/*.pdf

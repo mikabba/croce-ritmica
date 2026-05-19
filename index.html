@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Croce Ritmica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/vexflow@3.0.9/releases/vexflow-debug.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/leaderboard.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body>
+  <!-- Schermata di login e classifica -->
+  <div id="loginContainer" class="login-container">
+    <h1>Accesso al Gioco Croce Ritmica</h1>
+    <input type="text" id="username" placeholder="Nome utente">
+    <input type="password" id="password" placeholder="Parola d'ordine">
+    <button id="loginButton">Accedi</button>
+    <div id="loginError" class="error"></div>
+    <h2>Classifica</h2>
+    <div id="leaderboardContainer">
+      <ul id="leaderboardList"></ul>
+    </div>
+  </div>
+     <div id="attestatoModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">Congratulazioni!</div>
+            <div class="modal-body">
+                <p>Complimenti! Hai guadagnato un attestato da stampare e far firmare la prossima lezione dal maestro. Avvisa il maestro del traguardo ottenuto</p>
+            </div>
+            <div class="modal-footer">
+		<a id="downloadCertificate" class="btnModal btn-success" href="attestati/AttestatoCroceRitmica.pdf" download="Attestato.pdf">Scarica Attestato</a>
+                <button id="closeModal" class="btnModal btn-secondary">Chiudi</button>
+            </div>
+        </div>
+    </div>
+  <!-- Schermata del gioco -->
+  <div id="gameContainer" class="container hidden">
+	
+    <h1 id="titleGame">Croce Ritmica</h1>
+    <!-- Visualizzazione del nome utente -->
+    <div style="display: flex;justify-content: space-evenly;"><div id="userDisplay"></div><div id="score-display">Punteggio: 0</div></div>
+    <!-- Controlli del gioco: Inizia, Controlla Soluzione e Termina -->
+    <div class="controls">
+      <button id="generate">Inizia</button>
+      <button id="check">Controlla Soluzione</button>
+      <button id="terminate" class="hidden">Termina</button>
+
+    </div>
+    <!-- Area di gioco: pentagramma (VexFlow ci disegna il pentagramma in SVG) -->
+    <div id="staff" class="staff"></div>
+    <!-- Tabella per l'inserimento delle sillabe (rimane invariata) -->
+    <div class="div-croce">
+      <table class="table-croce">
+        <tbody id="note-table-measure-1">
+          <tr><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="credits">
+    <p>🎵 Music: <a href="https://incompetech.com/" target="_blank">"Magic Escape Room"</a> by Kevin MacLeod</p>
+    <p>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+</footer>
+
+</body>
+</html>
