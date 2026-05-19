@@ -60,7 +60,7 @@ The application combines music notation rendering, editable answer cells, scorin
 
 ### Negative feedback
 <p align="center">
-  <img src="assets/negative-feedback.png" alt="Negative feedback" width="500">
+  <img src="assets/wrong-note.png" alt="Negative feedback" width="500">
 </p>
 
 ## Technical Overview
@@ -102,6 +102,49 @@ Show correct and incorrect answers
         v
 Update score and leaderboard
 ```
+
+## Classroom Use and Observed Results
+
+The tool was used in a real music education context with a class of 28 students with different starting levels.
+
+The activity was not used as a replacement for traditional solfeggio, but as a support tool alongside handwritten rhythmic crosses, oral rhythm subdivision exercises and rhythm patterns drawn in the air during class.
+
+At the beginning of the activity, the class included:
+
+- students who had already studied solfeggio for several years and could subdivide note durations with reasonable confidence;
+- students who were hesitant and often avoided answering during traditional oral exercises;
+- students who were approaching rhythm reading for the first time;
+- 10 younger children within the full group of 28 students.
+
+The application was introduced as a gamified practice tool. Students were encouraged to use it as a support exercise, while a classroom tournament was organized to increase motivation. The tournament ended at the end of the academic year with a prize for the highest score, while students reaching intermediate achievement thresholds were rewarded with certificates.
+
+### Observed learning outcomes
+
+| Observation | Initial situation | After regular use |
+|---|---|---|
+| Rhythm subdivision | Very heterogeneous: some students were confident, others were hesitant or silent during oral exercises | More fluent subdivision and faster recognition of rhythmic structures |
+| Classroom confidence | Several students avoided exposing themselves during traditional exercises | Increased participation through game-based practice and feedback |
+| Autonomy | Many students required teacher guidance to complete rhythmic crosses | Most students became able to complete the activity independently |
+| After 1 month | — | About 80% of students showed no major doubts during the activity |
+| After 2 months | — | About 92% of students showed stable fluency and confidence |
+| Final observed autonomy | — | Approximately 96% of students reached autonomous use of the exercise workflow |
+
+### Leaderboard engagement
+
+A leaderboard snapshot was used to monitor practice engagement among tracked student profiles.
+
+| Metric | Value |
+|---|---|
+| Total class size | 28 students |
+| Tracked leaderboard profiles | 20 profiles |
+| Total accumulated score in the snapshot | 55,649.12 points |
+| Median tracked score | 487.77 points |
+| Highest tracked score | 24,419 points |
+| Score range | 10 to 24,419 points |
+
+The leaderboard showed very different levels of practice intensity among students. This was useful not only as a scoring mechanism, but also as a motivational tool: students were encouraged by visible progression, achievement thresholds and the final classroom tournament.
+
+These results should be interpreted as observational feedback from classroom use rather than as a controlled experimental study.
 
 ## Rhythm Generation and Checking Logic
 
