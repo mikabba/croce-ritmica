@@ -125,9 +125,9 @@ The application was introduced as a gamified practice tool. Students were encour
 | Rhythm subdivision | Very heterogeneous: some students were confident, others were hesitant or silent during oral exercises | More fluent subdivision and faster recognition of rhythmic structures |
 | Classroom confidence | Several students avoided exposing themselves during traditional exercises | Increased participation through game-based practice and feedback |
 | Autonomy | Many students required teacher guidance to complete rhythmic crosses | Most students became able to complete the activity independently |
-| After 1 month | — | About 80% of students showed no major doubts during the activity |
-| After 2 months | — | About 92% of students showed stable fluency and confidence |
-| Final observed autonomy | — | Approximately 96% of students reached autonomous use of the exercise workflow |
+| After 1 month | — | Most students showed no major doubts during the activity |
+| After 2 months | — | 26 out of 28 students showed stable fluency and confidence |
+| Final observed autonomy | — | By the end of the activity, 27 out of 28 students reached autonomous use of the exercise workflow |
 
 ### Leaderboard engagement
 
